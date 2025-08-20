@@ -2,8 +2,8 @@ When I first started looking at the dataset, I honestly really didn't know what 
 start with basic exploratory analysis and learn the structure of the dataset. Then, I began by looking at the
 most and least popular routes, which then prompted me to create some visualizations to better understand any distributions. It
 was also here where I discovered the 1989 pilots strike in Australia, which I'm very grateful I looked into and didn't ignore this
-event as it clears up a lot of confusion I had. Figuring out how to handle it was a bit tricky though. Eventually I decided that training on clean data (1985-1988)
-and then being able to predict both normal periods and post-strike recovery was the most useful approach to assess my models' accuracy.
+event as it clears up a lot of confusion I had. Figuring out how to handle it was a bit tricky though. Eventually I decided that training/testing on clean data
+and then attempting  to predict both normal periods and post-strike recovery was the most useful approach to assess my models' accuracy.
 The geographic analysis was probably my strongest area. Creating the port distribution breakdown and realizing that just three southeastern ports handled 84.8% of traffic
 was a significant insight I made. During this step I was also unsure of how to acquire coordinates of the Australian ports and also of destination ports
 for the distance vs passenger traffic modeling. I was originally going to my own research and create a large dictionary of them to store, but I realized that Python
